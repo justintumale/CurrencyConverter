@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <title> Test form </title>
+</head>
+<body>
+    <form action="../servlet" method="get">
+        Name: <input type="text" name="username"><br>
+        Email: <input type="text" name="email"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+<!--
+<html>
+<head>
 	<title> Currency Converter</title>
 </head>
 <body>
 	<h2> Currency Converter </h2>
-	<!--
-	<form method=“get”
-	action=“http://uml.cs.uga.edu:8080/francis_tumale_currency/”>
--->
-	<form method=“GET”
-	action=“http://uml.cs.uga.edu:8080/francis_tumale_currency/”>
+	<form method=“get” action=“/servlet”>
 	
 	Amount: <input type="text" name="amount"/>
 	<p>Currency:</p>
@@ -95,6 +103,8 @@
   	<p><input type="submit" value = "Submit"/></p>
 
 	</form>
+-->
+
 	<!--
 	<form method=“get”
 	action=“http://uml.cs.uga.edu:8080/francis_tumale_currency/converter”
