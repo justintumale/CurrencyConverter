@@ -1,4 +1,4 @@
-package com.p1;
+package francis_tumale_currency;
 import java.sql.*;
 import java.util.*;
 
